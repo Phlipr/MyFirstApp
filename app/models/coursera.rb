@@ -6,6 +6,6 @@ class Coursera
   format :json
 
   def self.for term
-    get("", verify: false, query: {query: term})["elements"]
+    get("", verify: false, query: {q: term})["elements"]
   end
 end
