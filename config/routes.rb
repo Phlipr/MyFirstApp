@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'test_controller/index'
+
   get 'courses/index'
 
   get 'greeter/hello'
